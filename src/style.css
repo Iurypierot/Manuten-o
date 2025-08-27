@@ -45,8 +45,9 @@
 /* Efeito ao passar o mouse */
 .link_404:hover {
   background-color: #2e8b23; 
-  transform: translateY(-3px); 
+  transform: translateY(-3px) scale(1.05); 
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); 
+  animation: pulse 1s infinite ease-in-out; 
 }
 
 /* Efeito ao clicar */
@@ -59,4 +60,11 @@
 /* Centraliza os botões */
 .contant_box_404 a {
   margin: 10px;
+}
+
+/* Animação para o efeito de pulsar */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
 }
