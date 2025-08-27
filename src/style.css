@@ -1,0 +1,62 @@
+/* Estilo Base para a página 404 */
+.page_404 { 
+  padding: 40px 0; 
+  background: #fff; 
+  font-family: 'Arvo', serif;
+}
+
+.page_404 img { 
+  width: 100%;
+}
+
+.four_zero_four_bg {
+  background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.four_zero_four_bg h1 {
+  font-size: 80px;
+}
+
+.four_zero_four_bg h3 {
+  font-size: 80px;
+}
+
+.contant_box_404 { 
+  margin-top: -50px;
+}
+
+/* Estilos aprimorados para os botões */
+.link_404 { 
+  color: #fff !important;
+  padding: 10px 20px;
+  background: #39ac31;
+  margin: 20px 0 0; 
+  display: inline-block;
+  text-decoration: none; 
+  border-radius: 50px; 
+  transition: all 0.3s ease; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  font-weight: bold;
+}
+
+/* Efeito ao passar o mouse */
+.link_404:hover {
+  background-color: #2e8b23; 
+  transform: translateY(-3px); 
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); 
+}
+
+/* Efeito ao clicar */
+.link_404:active {
+  background-color: #1a6311; 
+  transform: translateY(0); 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+/* Centraliza os botões */
+.contant_box_404 a {
+  margin: 10px;
+}
